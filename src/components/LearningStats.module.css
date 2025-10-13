@@ -1,0 +1,69 @@
+.learningStats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.stat {
+  padding: 1.5rem;
+  background-color: #fff;
+  border-radius: 0.75rem;
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.label {
+  color: #64748b;
+  font-size: 0.875rem;
+  margin: 0 0 0.25rem 0;
+}
+
+.value {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: #0f172a;
+  margin: 0;
+}
+
+.value.completed {
+  color: #059669;
+}
+
+.value.inProgress {
+  color: #d97706;
+}
+
+.iconContainer {
+  padding: 0.75rem;
+  background-color: #f1f5f9;
+  border-radius: 0.5rem;
+}
+
+.iconContainer.completedIcon {
+  background-color: #dcfce7;
+}
+
+.iconContainer.inProgressIcon {
+  background-color: #fef3c7;
+}
+
+.iconContainer .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #64748b;
+}
+
+.completedIcon .icon {
+  color: #059669;
+}
+
+.inProgressIcon .icon {
+  color: #d97706;
+}
