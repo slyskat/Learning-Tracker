@@ -2,7 +2,7 @@
 
 A user-centric productivity application built with React to help users track progress, manage tasks, and visualize their learning journey.
 
- https://learning-tracker-xi.vercel.app/ | 📱 **Fully Responsive** | 🌟 **Portfolio Project**
+ https://learning-tracker-xi.vercel.app/ |  **Fully Responsive** |  **Portfolio Project**
 
 ---
 
